@@ -7,15 +7,15 @@ import { getEntries } from "@/lib/contentful";
 export default async function Home() {
   const services = await getEntries();
 
-  if (!services) {
-    return;
-  }
-
   return (
     <main>
       <Jumbotron />
       <Overview />
-      <ServiceSection services={services} />
+      {services && (
+        <>
+          <ServiceSection services={services} />
+        </>
+      )}
       <Testimonials />
     </main>
   );
