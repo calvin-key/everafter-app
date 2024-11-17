@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Jumbotron from "../../features/home/components/Jumbotron";
 import Overview from "../../features/home/components/Overview";
 import ServiceSection from "../../features/home/components/ServiceSection";
