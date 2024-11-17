@@ -35,7 +35,7 @@ const Footer = () => {
               </Link>
             </div>
             <div className="flex flex-col gap-2">
-              <h1 className="font-bold">Socials</h1>
+              <h1 className="font-bold">Social</h1>
               <a
                 href="https://instagram.com/everafter"
                 target="_blank"
