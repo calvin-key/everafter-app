@@ -65,7 +65,7 @@ const Footer = () => {
               <div className="flex flex-col items-center">
                 <div className="relative h-[70px] w-[70px]">
                   <Image
-                    src="/logo2.svg"
+                    src="/Logo2.svg"
                     alt="logo"
                     fill
                     objectFit="cover"

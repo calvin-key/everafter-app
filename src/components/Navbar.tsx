@@ -17,7 +17,7 @@ const Navbar = () => {
         <Link href="/" className="hover:text-[#C6754D]">
           <div className="relative h-[50px] w-[50px]">
             <Image
-              src="/logo.svg"
+              src="/Logo.svg"
               alt="logo"
               fill
               objectFit="cover"
@@ -66,7 +66,7 @@ const Navbar = () => {
         <Link href="/" className="hover:text-[#C6754D]">
           <div className="relative h-[70px] w-[70px]">
             <Image
-              src="/logo.svg"
+              src="/Logo.svg"
               alt="logo"
               fill
               objectFit="cover"
