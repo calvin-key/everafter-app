@@ -30,6 +30,9 @@ const Footer = () => {
               <Link href="/teams" className="hover:text-[#C6754D]">
                 Teams
               </Link>
+              <Link href="/contact" className="hover:text-[#C6754D]">
+                Contact
+              </Link>
             </div>
             <div className="flex flex-col gap-2">
               <h1 className="font-bold">Socials</h1>
