@@ -5,7 +5,7 @@ import { useFetchRandomUsers } from "../../../src/hooks/useFetchRandomUsers";
 import Image from "next/image";
 
 const TeamHome = () => {
-  const { users, loading, error } = useFetchRandomUsers(4); // Fetch 4 members
+  const { users, loading, error } = useFetchRandomUsers(4);
 
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error: {error}</p>;
