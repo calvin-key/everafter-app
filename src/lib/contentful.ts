@@ -14,7 +14,7 @@ const client = createClient({
 export const getEntries = async () => {
   try {
     const response = await client.getEntries({
-      content_type: "Service",
+      content_type: "product",
     });
 
     const services = response.items.map((service: ResponseEntry) => ({
