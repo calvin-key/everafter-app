@@ -12,7 +12,7 @@ const Overview = () => {
           <div className="flex flex-col items-center md:items-start">
             <p className="pb-7 text-center md:text-left">
               Founded on a passion for love and celebration, EverAfter Weddings
-              has been helping couples create their dream weddings for over 5
+              has been helping couples create their dream weddings for over 6
               years. Our team is made up of experienced wedding planners,
               designers, and coordinators who are dedicated to turning your
               wedding vision into a reality. We offer personalized services,
